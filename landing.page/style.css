@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    position: fixed;
+    inset-block-start: 0;
+    inline-size: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    z-index: 1000;
+    transition: background-color 0.5s ease;
+}
+
+.navbar.scrolled {
+    background-color: rgba(84, 63, 41, 0.8);
+}
+
+.navbar .logo img {
+    inline-size: 50px;
+    block-size: 50px;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.navbar .nav-links li {
+    margin: 0 15px;
+}
+
+.navbar .nav-links a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.navbar .nav-links a:hover {
+    color: #ffffff;
+    background-color: rgb(75, 54, 27);
+    border-radius: 5px;
+}
+
+section {
+    padding: 100px 20px;
+    block-size: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-size: cover;
+    background-position: center;
+    animation: fadeIn 2s ease-in-out;
+}
+
+#home {
+    background-image: url('assets/home.bg.png');
+    color: #000000;
+}
+
+#about {
+    background-image: url('assets/about\ me.bg.png');
+}
+
+#projects {
+    background-image: url('assets/aboutme2.bg.png');
+}
+
+#contact {
+    background-image: url('assets/projects.bg.png');
+}
+
+section img {
+    inline-size: 200px;
+    border-radius: 50%;
+    margin-block-end: 20px;
+}
+
+section p {
+    max-inline-size: 600px;
+    margin: 20px 0;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.project-container {
+    margin-block-start: 20px;
+}
+
+.project-btn {
+    text-decoration: none;
+    color: rgb(7, 0, 0);
+    background-color: #ffffff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.project-btn:hover {
+    background-color: #b89b85;
+    transform: scale(1.05);
+}
+
+.contact-container {
+    margin-block-start: 20px;
+}
+
+.contact-btn {
+    text-decoration: none;
+    color: rgb(7, 0, 0);
+    background-color: #ffffff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.contact-btn:hover {
+    background-color: #b89b85;
+    transform: scale(1.05);
+}
+.icons {
+    text-align: center;
+    margin-block-start: 30px;
+}
+
+.icons i {
+    font-size: 40px;
+    margin: 0 15px;
+    color: #ffffff;
+    transition: color 0.3s;
+    animation: bounce 2s infinite;
+}
+
+.icons i:hover {
+    color: #b89b85;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+    40% { transform: translateY(-20px); }
+    60% { transform: translateY(-10px); }
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
