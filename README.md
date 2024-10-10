@@ -1,17 +1,43 @@
+# landing.page
 
-➤Landing Page with Interactive Navigation Mene:
- ➢This project is a responsive landing page built using HTML, CSS, and JavaScript. 
- ➢It features an interactive navigation menu with a fixed position that remains visible on all pages. 
- ➢The menu background color and font colors change dynamically when scrolling or hovering over the menu items, offering a smooth and engaging user experience.
+This is a responsive landing page created as part of a task during my internship at Prodigy Infotech. The landing page is designed to be visually appealing, easy to navigate, and user-friendly, making it suitable for a variety of web development use cases.
+## Features
+Interactive Navigation Menu: The landing page includes a stylish, fixed-position navigation menu that changes appearance when scrolled, with hover effects for interactivity.
 
-➤Features:
-  ➢Interactive Navigation Menu: The navigation menu changes colors on scroll and hover, adding a dynamic touch to the site.
-  ➢Fixed Position Menu: The navigation menu remains visible as you scroll through the page.
-  ➢Responsive Design: The page is designed to be mobile-friendly and adapts to various screen sizes.
-  ➢Integrated Project Links: Easily accessible links to personal projects such as the portfolio and Netflix clone.
-  ➢Contact Section: Includes a "Contact Me" button that opens your email client with pre-filled information.
+Mobile Responsiveness: Designed to provide an optimal viewing experience across a range of devices, from desktop monitors to mobile phones.
 
-➤Technologies Used:
-  ➢HTML5: Structuring the webpage and adding elements like navigation, buttons, and content.
-  ➢CSS3: For styling the layout, making the navigation interactive, and ensuring the site is responsive.
-  ➢JavaScript: Adding interactivity to the navigation menu (scroll effect, hover animations).
+Dynamic Sections: Various sections that smoothly transition between views for a more dynamic and engaging user experience.
+
+Icons Integration: Utilizes Font Awesome icons for a professional touch, including icons for social media links (GitHub, LinkedIn, Instagram) and a contact mail icon.
+## Technologies used
+
+HTML: Used to structure the page and its content.
+
+CSS: Applied for styling, layout, and responsiveness.
+
+JavaScript: Added for interactive elements, such as scroll effects and smooth navigation.
+## How to Use
+To view the landing page, you can clone this repository and open index.html in your browser.
+
+Alternatively, you can visit the deployed version of the landing page.
+
+deployed link is:-https://adnan-info.netlify.app/
+## Installation
+
+1. Clone the repository:
+
+git clone https://github.com/AdnanChouhan/landing.page.git
+
+
+
+2. Open (index.html) in your web browser.
+    
+## Project Highlights
+This project was part of Task 2 during my internship at Prodigy Infotech. In this task, I focused on building an interactive and responsive landing page using HTML for structure, CSS for styling, and JavaScript for adding interactivity. The landing page demonstrates how simple yet elegant design principles can be applied to build a user-friendly interface.
+## Contact
+
+Email: adnancse2022@gmail.com
+
+LinkedIn: https://www.linkedin.com/in/mohammed-adnan-084945282/
+
+GitHub: https://github.com/AdnanChouhan
